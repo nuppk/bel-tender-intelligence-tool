@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# App cache: holds extracted data from tenders, keep it off GitHub
+tender_cache.json
+
+# Real tender documents are confidential: never commit them
+*.pdf
+!sample_tenders/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
